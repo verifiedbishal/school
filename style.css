@@ -603,7 +603,7 @@ body{
 
 /* Section Style */
 .section{
-    background-image: url(../../../thumb16.jpg);
+    background-image: url(assets/images/thumb16.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -663,8 +663,15 @@ body{
     color: rgb(85, 82, 82);
 }
 @media (max-width : 764px){
+    .section{
+        background-image: linear-gradient(to left bottom,rgba(32, 28, 231, 0.685),rgb(21, 189, 201));
+        height: 50vh;
+    }
+    .input__head{
+        font-size: 24px;
+    }
     .input__box{
-        width: 90%;
+        width: 85%;
     }
     .input__box i{
         padding: 0 10px;
